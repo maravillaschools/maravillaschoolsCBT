@@ -387,7 +387,7 @@ function scoreRender() {
 	var interval = setInterval(myURL,2000);
 		
 		function myURL() {
-			document.location.href= 'loginpage.html';
+			document.location.href= 'index.html';
 		}
 	clearInterval(TIMER);
 	navs.style.display = "none";
