@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>MC CBT ICT JSS1</title>
+		<link rel="stylesheet" href="examsstylenew.css" />
+	</head>
+	<body>
+		<div id="candidate">
+			<div id="hd">MARAVILLA COLLEGE</div>
+			<div id="hd1">ENTRANCE EXAMINATION 2024/2025 SESSION</div>
+			<div id="status">
+				STUDENT'S NAME:
+				<input
+					type="text"
+					id="txtName"
+					placeholder="Surname + Name"
+					size="25" readonly
+				/>
+				SUBJECT:
+				<input 
+				type="text" 
+				id="selPaper" 
+				value="MATHEMATICS" 
+				size="17" readonly
+				/>
+				CLASS: 
+				<input 
+				type="text" 
+				id="selClass" 
+				value="TO JSS 1" 
+				size="8" readonly/>
+			</div>
+		</div>
+		<div id="container">
+			<div id="hd2">SECTION A: OBJECTIVE (Answer all)</div>
+			<h5>WISH YOU THE VERY BEST</h5>
+			<div id="instruction">
+				<h4>INSTRUCTION</h4>
+			<p>
+				 1.	 Click on the start button to begin the examination. <br>
+				 2.	 From the options labelled A - D, ensure you choose the correct answer. <br>
+				 3.	 Ensure you finish answering the questions on or before the stipulated time <br> &nbsp;&nbsp; of the examination as the stopping time will lead to automatic submission. <br>
+				 4.	 Ensure you make use of the previous and next buttons for proper navigation. <br>
+				 5.	 You can also click on the number of the question which you wish to answer. <br>
+				 6.	 Click on the end/submit button after you have selected all answers to the questions.
+			</p>
+			</div>
+			<div id="start">START!</div>
+			<div id="quiz" style="display: none">
+				<div id="question"></div>
+				<br />
+				<div id="choices">
+					<div class="choice" id="A" onclick="checkAnswer('A')"></div>
+					<div class="choice" id="B" onclick="checkAnswer('B')"></div>
+					<div class="choice" id="C" onclick="checkAnswer('C')"></div>
+					<div class="choice" id="D" onclick="checkAnswer('D')"></div>
+				</div>
+				<div id="timer">
+					<div id="counter"></div>
+					<div id="btimeGauge"></div>
+					<div id="timeGauge"></div>
+				</div>
+				<div id="navs">
+					<button id="P" onclick="prevQ()">Previous</button>
+					<button id="N" onclick="nextQ()">Next</button>
+					<button id="S" onclick="scoreRender()">SUBMIT</button>
+				</div>
+				<div id="progress"></div>
+			</div>
+		</div>
+		<script src="pdf.js"></script>
+		<script src="MTH.js"></script>
+	</body>
+</html>
