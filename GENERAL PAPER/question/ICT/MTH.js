@@ -127,7 +127,7 @@ let questions = [
 	choiceB : "B. Court",
 	choiceC : "C. Islamic",
 	choiceD : "D. Same sex",	
-	correct : ""
+	correct : "D"
 	},
 	{
 	question : "The closest authority to the people is ___ government",
@@ -191,7 +191,7 @@ let questions = [
 	choiceB : "B. Ceramist",
 	choiceC : "C. Designer",
 	choiceD : "D. Sculptor",	
-	correct : "D"
+	correct : "B"
 	},
 	{
 	question : "A by-product of wood is",
@@ -263,7 +263,7 @@ let questions = [
 	choiceB : "B. Green",
 	choiceC : "C. Indigo",
 	choiceD : "D. Magenta",	
-	correct : ""
+	correct : "C"
 	},
 	].sort(function () {
 	return 0.5 - Math.random();
