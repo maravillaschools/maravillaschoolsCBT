@@ -36,10 +36,10 @@ let questions = [
 	{
 	question : "<b><sup>Choose the one that is nearest in meaning to the word in italics.</sup></b> <br> <sup>The pupils are <i>eager</i> to go on holiday.</sup>",
 	choiceA : "A. afraid",
-	choiceB : "B. desperate",
+	choiceB : "B. non-chalant",
 	choiceC : "C. keen",
 	choiceD : "D. reluctant",	
-	correct : "B"
+	correct : "C"
 	},
 	{
 	question : "<b><sup>Choose the one that is nearest in meaning to the word in italics.</sup></b> <br> <sup>The enemies <i>invaded</i> the village.</sup>",
@@ -247,7 +247,7 @@ let questions = [
 		choiceB:"B. You willet do your homework everyday",
 		choiceC:"C. Everyday shall do your homework",
 		choiceD:"D. You will do your homework everyday",
-		correct: "D",
+		correct: "A",
 		},
 		{
 		question: "What is the function of intensifiers in a sentence?",
@@ -291,7 +291,7 @@ let questions = [
 		},
 		{
 		question: "Which verb form is closed to describing an action that started and finished in the past?",
-		choiceA:"A. Presnt perfect",
+		choiceA:"A. Present perfect",
 		choiceB:"B. Past perfect",
 		choiceC:"C. Simple past",
 		choiceD:"D. Future past",
